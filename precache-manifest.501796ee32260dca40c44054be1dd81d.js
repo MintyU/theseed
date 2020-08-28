@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c5f8fad39cdc1e6f8a0ffd44dc0f1564",
+    "revision": "0509d0747f63b4cfa27e99c2199efa62",
     "url": "/theseed/index.html"
   },
   {
-    "revision": "76d9811314ca373e8e4c",
+    "revision": "e8b2ab99e22302fefe3f",
     "url": "/theseed/static/css/main.5f361e03.chunk.css"
   },
   {
-    "revision": "d27040d0c2b434c36a84",
-    "url": "/theseed/static/js/2.2ae52035.chunk.js"
+    "revision": "769358879555bbd0db7d",
+    "url": "/theseed/static/js/2.513ae3c7.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/theseed/static/js/2.2ae52035.chunk.js.LICENSE.txt"
+    "url": "/theseed/static/js/2.513ae3c7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "76d9811314ca373e8e4c",
-    "url": "/theseed/static/js/main.15f1f698.chunk.js"
+    "revision": "e8b2ab99e22302fefe3f",
+    "url": "/theseed/static/js/main.4d0f3603.chunk.js"
   },
   {
     "revision": "44a6197681b065a813f4",

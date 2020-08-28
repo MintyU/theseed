@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/theseed/static/css/main.5f361e03.chunk.css",
-    "main.js": "/theseed/static/js/main.15f1f698.chunk.js",
-    "main.js.map": "/theseed/static/js/main.15f1f698.chunk.js.map",
+    "main.js": "/theseed/static/js/main.4d0f3603.chunk.js",
+    "main.js.map": "/theseed/static/js/main.4d0f3603.chunk.js.map",
     "runtime-main.js": "/theseed/static/js/runtime-main.3b07874b.js",
     "runtime-main.js.map": "/theseed/static/js/runtime-main.3b07874b.js.map",
-    "static/js/2.2ae52035.chunk.js": "/theseed/static/js/2.2ae52035.chunk.js",
-    "static/js/2.2ae52035.chunk.js.map": "/theseed/static/js/2.2ae52035.chunk.js.map",
+    "static/js/2.513ae3c7.chunk.js": "/theseed/static/js/2.513ae3c7.chunk.js",
+    "static/js/2.513ae3c7.chunk.js.map": "/theseed/static/js/2.513ae3c7.chunk.js.map",
     "index.html": "/theseed/index.html",
-    "precache-manifest.3e9275a0bd014519b49f1371c2136950.js": "/theseed/precache-manifest.3e9275a0bd014519b49f1371c2136950.js",
+    "precache-manifest.501796ee32260dca40c44054be1dd81d.js": "/theseed/precache-manifest.501796ee32260dca40c44054be1dd81d.js",
     "service-worker.js": "/theseed/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "/theseed/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.2ae52035.chunk.js.LICENSE.txt": "/theseed/static/js/2.2ae52035.chunk.js.LICENSE.txt"
+    "static/js/2.513ae3c7.chunk.js.LICENSE.txt": "/theseed/static/js/2.513ae3c7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3b07874b.js",
-    "static/js/2.2ae52035.chunk.js",
+    "static/js/2.513ae3c7.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.15f1f698.chunk.js"
+    "static/js/main.4d0f3603.chunk.js"
   ]
 }
