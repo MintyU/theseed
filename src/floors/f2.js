@@ -7,6 +7,7 @@ function F2({
   f2Callback3,
   f2Callback4,
   f2Callback5,
+  f2Total,
 }) {
   return (
     <div id="2">
@@ -386,6 +387,7 @@ function F2({
         <p>총 주운 카드 수를 입력해주세요</p>
         <input
           type="text"
+          placeholder={f2Total}
           onChange={(e) => f2Callback5(e.target.value)}
         ></input>
       </div>

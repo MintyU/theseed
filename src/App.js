@@ -100,6 +100,7 @@ function App() {
           f2Callback3={handleF2Last0}
           f2Callback4={handleF2Last1}
           f2Callback5={setF2Total}
+          f2Total={f2Total}
         />
       )}
       <div>
