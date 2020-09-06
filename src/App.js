@@ -5,6 +5,7 @@ import F0 from "./floors/f0";
 import F1 from "./floors/f1";
 import F2 from "./floors/f2";
 import F3 from "./floors/f3";
+import F4 from "./floors/f4";
 
 function App() {
   const [floor, setFloor] = useState(0);
@@ -16,6 +17,7 @@ function App() {
   const [f2Total, setF2Total] = useState(0);
   const [f2Cards, setF2Cards] = useState([0, 0, 0, 0]);
   const [f3Data, setF3Data] = useState([0, 0, 0]);
+  const [f4Data, setF4Data] = useState(0);
 
   /*Change F2 First Card's Color*/
   const handleF2First0 = (colorInput) => {
@@ -118,6 +120,7 @@ function App() {
         />
       )}
       {floor === 3 && <F3 f3Callback={handleF3Data} f3Data={f3Data} />}
+      {floor === 4 && <F4 f4Callback={setF4Data} f4Data={f4Data} />}
       <div>
         <button
           className="prev"
