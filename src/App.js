@@ -125,7 +125,7 @@ function App() {
       {floor === 3 && <F3 f3Callback={handleF3Data} f3Data={f3Data} />}
       {floor === 4 && <F4 f4Callback={setF4Data} f4Data={f4Data} />}
       {floor === 5 && <F5 />}
-      {floor === 6 && <F6 />}
+      {floor === 6 && <F6 f6Callback={setF6Data} f6Data={f6Data} />}
       <div>
         <button
           className="prev"
