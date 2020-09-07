@@ -8,6 +8,7 @@ import F3 from "./floors/f3";
 import F4 from "./floors/f4";
 import F5 from "./floors/f5";
 import F6 from "./floors/f6";
+import F7 from "./floors/f7";
 
 function App() {
   const [floor, setFloor] = useState(0);
@@ -126,6 +127,7 @@ function App() {
       {floor === 4 && <F4 f4Callback={setF4Data} f4Data={f4Data} />}
       {floor === 5 && <F5 />}
       {floor === 6 && <F6 f6Callback={setF6Data} f6Data={f6Data} />}
+      {floor === 7 && <F7 />}
       <div>
         <button
           className="prev"
