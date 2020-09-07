@@ -9,6 +9,7 @@ import F4 from "./floors/f4";
 import F5 from "./floors/f5";
 import F6 from "./floors/f6";
 import F7 from "./floors/f7";
+import F8 from "./floors/f8";
 
 function App() {
   const [floor, setFloor] = useState(0);
@@ -22,6 +23,7 @@ function App() {
   const [f3Data, setF3Data] = useState([0, 0, 0]);
   const [f4Data, setF4Data] = useState(0);
   const [f6Data, setF6Data] = useState(0);
+  const [f8Data, setF8Data] = useState(0);
 
   /*Change F2 First Card's Color*/
   const handleF2First0 = (colorInput) => {
@@ -128,6 +130,7 @@ function App() {
       {floor === 5 && <F5 />}
       {floor === 6 && <F6 f6Callback={setF6Data} f6Data={f6Data} />}
       {floor === 7 && <F7 />}
+      {floor === 8 && <F8 f8Callback={setF8Data} f8Data={f8Data} />}
       <div>
         <button
           className="prev"
