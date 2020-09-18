@@ -10,6 +10,7 @@ import F5 from "./floors/f5";
 import F6 from "./floors/f6";
 import F7 from "./floors/f7";
 import F8 from "./floors/f8";
+import F9 from "./floors/f9";
 
 function App() {
   const [floor, setFloor] = useState(0);
@@ -24,6 +25,8 @@ function App() {
   const [f4Data, setF4Data] = useState(0);
   const [f6Data, setF6Data] = useState(0);
   const [f8Data, setF8Data] = useState(0);
+  const [f9Data, setF9Data] = useState([0, 0, 0, 0, 0, 0, 0, 0]);
+  const [f9Fail, setF9Fail] = useState(0);
 
   /*Change F2 First Card's Color*/
   const handleF2First0 = (colorInput) => {
@@ -103,6 +106,18 @@ function App() {
     );
   };
 
+  const handleF9Data = (i, n) => {
+    setF9Data(
+      f9Data.map((data, j) => {
+        if (j === i) {
+          return n;
+        } else {
+          return data;
+        }
+      })
+    );
+  };
+
   return (
     <div className="App">
       {floor === 0 && <F0 f0Data={f0Data} f0Callback={setF0Data} />}
@@ -131,6 +146,13 @@ function App() {
       {floor === 6 && <F6 f6Callback={setF6Data} f6Data={f6Data} />}
       {floor === 7 && <F7 />}
       {floor === 8 && <F8 f8Callback={setF8Data} f8Data={f8Data} />}
+      {floor === 9 && (
+        <F9
+          f9Callback0={handleF9Data}
+          f9Callback1={setF9Fail}
+          f9Fail={f9Fail}
+        />
+      )}
       <div>
         <button
           className="prev"
